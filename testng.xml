@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="login.FarmLead.TitlePageElement_test"/>
+     </classes>
+     </test>
+     <test name="Test2"> 
+     <classes>
+      <class name="login.FarmLead.login_Test"/>
+      </classes>
+      </test>
+      <test name="Test3">
+      <classes>
+      <class name="login.FarmLead.create_Account_test"/>
+      </classes>
+      </test>
+      <test name="Test4">
+      <classes>
+      <class name="login.FarmLead.ForgotPassword_Test"/>
+      </classes>
+      </test>
+      <test name="Test5">
+      <classes>
+      <class name="login.FarmLead.CreateAccountPageElement_Test"/>
+    </classes>
+    </test>
+</suite> <!-- Suite -->

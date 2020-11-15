@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37492" started-at="2020-11-15T20:21:01Z" finished-at="2020-11-15T20:21:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9590" started-at="2020-11-15T20:21:01Z" finished-at="2020-11-15T20:21:11Z">
+      <class name="login.FarmLead.TitlePageElement_test">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:login.FarmLead.TitlePageElement_test@5a61f5df]" name="initilize" is-config="true" duration-ms="7270" started-at="2020-11-15T20:21:01Z" finished-at="2020-11-15T20:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="TitlePage_ElementTest()[pri:0, instance:login.FarmLead.TitlePageElement_test@5a61f5df]" name="TitlePage_ElementTest" duration-ms="1995" started-at="2020-11-15T20:21:09Z" finished-at="2020-11-15T20:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitlePage_ElementTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:login.FarmLead.TitlePageElement_test@5a61f5df]" name="close" is-config="true" duration-ms="76" started-at="2020-11-15T20:21:11Z" finished-at="2020-11-15T20:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- login.FarmLead.TitlePageElement_test -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="9443" started-at="2020-11-15T20:21:11Z" finished-at="2020-11-15T20:21:20Z">
+      <class name="login.FarmLead.login_Test">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:login.FarmLead.login_Test@6ea12c19]" name="initilize" is-config="true" duration-ms="3456" started-at="2020-11-15T20:21:11Z" finished-at="2020-11-15T20:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="BlankloginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.FarmLead.login_Test@6ea12c19]" name="BlankloginTest" duration-ms="1632" started-at="2020-11-15T20:21:15Z" data-provider="emptyData" finished-at="2020-11-15T20:21:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Either a phone number or email is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankloginTest -->
+        <test-method status="PASS" signature="BlankloginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.FarmLead.login_Test@6ea12c19]" name="BlankloginTest" duration-ms="728" started-at="2020-11-15T20:21:16Z" data-provider="emptyData" finished-at="2020-11-15T20:21:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Either a phone number or email is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankloginTest -->
+        <test-method status="PASS" signature="NegativeloginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.FarmLead.login_Test@6ea12c19]" name="NegativeloginTest" duration-ms="811" started-at="2020-11-15T20:21:17Z" data-provider="getData" finished-at="2020-11-15T20:21:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[????]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Whoops! That email is not associated with an account.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeloginTest -->
+        <test-method status="PASS" signature="NegativeloginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.FarmLead.login_Test@6ea12c19]" name="NegativeloginTest" duration-ms="561" started-at="2020-11-15T20:21:18Z" data-provider="getData" finished-at="2020-11-15T20:21:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Whoops! That email is not associated with an account.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeloginTest -->
+        <test-method status="PASS" signature="NegativeloginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.FarmLead.login_Test@6ea12c19]" name="NegativeloginTest" duration-ms="577" started-at="2020-11-15T20:21:18Z" data-provider="getData" finished-at="2020-11-15T20:21:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Whoops! That email is not associated with an account.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeloginTest -->
+        <test-method status="PASS" signature="positiveloginTest(java.lang.String, java.lang.String)[pri:0, instance:login.FarmLead.login_Test@6ea12c19]" name="positiveloginTest" duration-ms="754" started-at="2020-11-15T20:21:19Z" data-provider="getPositiveData" finished-at="2020-11-15T20:21:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveloginTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:login.FarmLead.login_Test@6ea12c19]" name="exit" is-config="true" duration-ms="918" started-at="2020-11-15T20:21:20Z" finished-at="2020-11-15T20:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- login.FarmLead.login_Test -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="8415" started-at="2020-11-15T20:21:20Z" finished-at="2020-11-15T20:21:29Z">
+      <class name="login.FarmLead.create_Account_test">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:login.FarmLead.create_Account_test@4de8b406]" name="initilize" is-config="true" duration-ms="3646" started-at="2020-11-15T20:21:20Z" finished-at="2020-11-15T20:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="CreateAccount_NegativeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.FarmLead.create_Account_test@4de8b406]" name="CreateAccount_NegativeTest" duration-ms="2266" started-at="2020-11-15T20:21:24Z" data-provider="NegativeData" finished-at="2020-11-15T20:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abishek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcdefg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The provided email is invalid.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount_NegativeTest -->
+        <test-method status="PASS" signature="CreateAccount_NegativeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.FarmLead.create_Account_test@4de8b406]" name="CreateAccount_NegativeTest" duration-ms="784" started-at="2020-11-15T20:21:26Z" data-provider="NegativeData" finished-at="2020-11-15T20:21:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[??//@# ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[First name is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount_NegativeTest -->
+        <test-method status="PASS" signature="CreateAccount_NegativeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.FarmLead.create_Account_test@4de8b406]" name="CreateAccount_NegativeTest" duration-ms="740" started-at="2020-11-15T20:21:27Z" data-provider="NegativeData" finished-at="2020-11-15T20:21:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abishek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Last name is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount_NegativeTest -->
+        <test-method status="PASS" signature="CreateAccount_PositiveTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.FarmLead.create_Account_test@4de8b406]" name="CreateAccount_PositiveTest" duration-ms="929" started-at="2020-11-15T20:21:28Z" data-provider="positiveData" finished-at="2020-11-15T20:21:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abishek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thorikonda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abishek@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount_PositiveTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:login.FarmLead.create_Account_test@4de8b406]" name="close" is-config="true" duration-ms="49" started-at="2020-11-15T20:21:29Z" finished-at="2020-11-15T20:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- login.FarmLead.create_Account_test -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="4668" started-at="2020-11-15T20:21:29Z" finished-at="2020-11-15T20:21:34Z">
+      <class name="login.FarmLead.ForgotPassword_Test">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:login.FarmLead.ForgotPassword_Test@6d8a00e3]" name="initilize" is-config="true" duration-ms="3103" started-at="2020-11-15T20:21:29Z" finished-at="2020-11-15T20:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="ForgotPasswordTest()[pri:0, instance:login.FarmLead.ForgotPassword_Test@6d8a00e3]" name="ForgotPasswordTest" duration-ms="1450" started-at="2020-11-15T20:21:32Z" finished-at="2020-11-15T20:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPasswordTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:login.FarmLead.ForgotPassword_Test@6d8a00e3]" name="close" is-config="true" duration-ms="115" started-at="2020-11-15T20:21:33Z" finished-at="2020-11-15T20:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- login.FarmLead.ForgotPassword_Test -->
+    </test> <!-- Test4 -->
+    <test name="Test5" duration-ms="5266" started-at="2020-11-15T20:21:34Z" finished-at="2020-11-15T20:21:39Z">
+      <class name="login.FarmLead.CreateAccountPageElement_Test">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:login.FarmLead.CreateAccountPageElement_Test@4439f31e]" name="initilize" is-config="true" duration-ms="3521" started-at="2020-11-15T20:21:34Z" finished-at="2020-11-15T20:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="CreateAccount_PageElementsTest()[pri:0, instance:login.FarmLead.CreateAccountPageElement_Test@4439f31e]" name="CreateAccount_PageElementsTest" duration-ms="1692" started-at="2020-11-15T20:21:37Z" finished-at="2020-11-15T20:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount_PageElementsTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:login.FarmLead.CreateAccountPageElement_Test@4439f31e]" name="close" is-config="true" duration-ms="52" started-at="2020-11-15T20:21:39Z" finished-at="2020-11-15T20:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- login.FarmLead.CreateAccountPageElement_Test -->
+    </test> <!-- Test5 -->
+  </suite> <!-- Suite -->
+</testng-results>
